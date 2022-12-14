@@ -1,0 +1,61 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2000;
+}
+.playersName.startGame{
+    display: none;
+}
+#player2{
+    margin-left: 20px;
+}
+#p2{
+    margin-left: 130px;
+}
+.start{
+    margin-top: 10px;
+}
+.containerMain{
+    height: 40vh;
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+.containerMain.show{
+    display: flex;
+}
+.container{
+    position: absolute;
+
+}
+.containerMain.show{
+    display: flex;
+}
+.buttons{
+    width: 150px;
+    height: 100px;
+}
+
+#player1Div{
+    display: none;
+}
+#player1Div.turn{
+    display: flex;
+}
+#player2Div{
+    display: none;
+}
+#player2Div.turn{
+    
+    display: flex;
+}
+#player1Span{
+    position: relative;
+    right: 400px;
+}
+#player2Span{
+    position: relative;
+    left: 280px;
+}
